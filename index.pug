@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    block scripts  
+    script(src='/static/index.js')
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul
+        .logo 
+          |Kilo 
+        li #[a(href="/") Home]
+        li #[a(href="/") About]
+        li #[a(href="/") Contact]
+        li #[a(href="/") Service]
+        li #[a(href="/") Cell]
+    section#section1 
+      | this is first 
+    section#section2 
+      |this is second
+
+    footer 
+        | Anurag Tiwari Copywrite@Anurag052
+
